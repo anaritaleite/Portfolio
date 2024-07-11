@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rita Leite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="logotipo" src="logotipo.png" alt="">
+        <h1 class="ritaleite">Rita Leite</h1>
+        <div>
+            <a class="links" href="#section2">Sobre mim</a>
+            <a class="links" href="#section3">Projetos</a>
+            <a class="links" href="#section5">Contactos</a>
+        </div>
+    </header>
+    <div id="section1">
+        <div class="containerwelcome">
+            <img class="foto" src="foto.png" alt="Fotografia">
+            <h1 class="animate__animated animate__fadeInDown" class="bemvindo">BEM-VINDO!</h1>
+        </div>
+        <div>
+            <p class="textointro">O meu nome é Rita e sou uma entusiasta pelo conhecimento. <br> Sou Assistente Social e estou, neste momento, numa aventura pelo mundo da programação.</p>
+        </div>
+        <a class="botaocentrado" href="#section2">Sabe mais sobre mim</a>
+    </div>
+    <div id="section1-2"></div>
+    <div id="section2">
+        <h1 id="sobremim">Sobre mim</h1><br>
+        <div class="divider"></div>
+        <div class="box">
+            <figure>
+                <img class="img" src="team.png" alt="">
+                <figcaption class="legenda">Licenciada em Serviço Social e pós-graduada em Crime, Diferença e
+                    Desigualdade. Sou feliz a ensinar os outros a serem felizes e a procurar por novas oportunidades na
+                    vida.</figcaption>
+            </figure>
+            <figure>
+                <img class="img" src="conhecimento.png" alt="">
+                <figcaption class="legenda">Conhecimento não ocupa lugar. Tenho gosto em aprender todos os dias, por
+                    isso, conto com algumas formações fora da área social como Gestão de Recursos Humanos, Marketing
+                    Digital, Liderança e, de momento, Front-end & Back-end Development.</figcaption>
+            </figure>
+            <figure>
+                <img class="img" src="viajar.png" alt="">
+                <figcaption class="legenda">Gosto de viajar. Permite-me colecionar histórias, conhecer novas pessoas e
+                    ser criativa no meu trabalho e no meu quotidiano.</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div id="section3">
+        <h1 class="projetos">Projetos</h1>
+        <div class="boxprojetos">
+            <img class="imgprojetos" src="pc1.jpg" alt="">
+            <img class="imgprojetos" src="pc2.jpg" alt="">
+            <img class="imgprojetos" src="tablet.jpg" alt="">
+        </div>
+    </div>
+    <div id="section5">
+        <h2 class="contacta">Entra em contacto comigo</h2>
+        <div class="contacto">
+            <form id="contactForm" action="#" method="POST"> 
+                <label for="name">Nome:</label><br><br>
+                <input type="text" id="name" name="name" required><br><br> <!-- Campo de entrada para o nome -->
+
+                <label for="email">Email:</label><br><br>
+                <input type="email" id="email" name="email" required><br><br> <!-- Campo de entrada para o email -->
+
+                <label for="message">Mensagem:</label><br><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <!-- Campo de entrada para a mensagem -->
+
+                <input type="submit" value="Submit"> <!-- Botão de envio do formulário -->
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
